@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+	<states>
+		<initialstate>
+			<lever id="1">0<lever/>
+			<lever id="2">0<lever/>
+			<lever id="3">0<lever/>
+			<result>r<result/>
+		<initialstate/>
+		
+		<state>
+			<lever id="1">0<lever/>
+			<lever id="2">0<lever/>
+			<lever id="3">0<lever/>
+			<result>reject<result/>
+			<input id="A">
+				<lever id="1">0<lever/>
+				<lever id="2">0<lever/>
+				<lever id="3">0<lever/>
+				<result>reject<result/>
+			<input/>
+			<input id="B">
+				<lever id="1">0<lever/>
+				<lever id="2">1<lever/>
+				<lever id="3">1<lever/>
+				<result>reject<result/>
+			<input/>
+		<state/>
+		
+		<state>
+			<lever id="1">0<lever/>
+			<lever id="2">0<lever/>
+			<lever id="3">0<lever/>
+			<result>accept<result/>
+			<input id="A">
+				<lever id="1">1<lever/>
+				<lever id="2">0<lever/>
+				<lever id="3">0<lever/>
+				<result>reject<result/>
+			<input/>
+			<input id="B">
+				<lever id="1">0<lever/>
+				<lever id="2">1<lever/>
+				<lever id="3">1<lever/>
+				<result>reject<result/>
+			<input/>
+		<state/>
+			
+		<state>
+			<lever id="1">0<lever/>
+			<lever id="2">0<lever/>
+			<lever id="3">1<lever/>
+			<result>accept<result/>
+			<input id="A">
+				<lever id="1">1<lever/>
+				<lever id="2">0<lever/>
+				<lever id="3">1<lever/>
+				<result>reject<result/>
+			<input/>
+			<input id="B">
+				<lever id="1">0<lever/>
+				<lever id="2">0<lever/>
+				<lever id="3">0<lever/>
+				<result>accept<result/>
+			<input/>
+		<state/>
+			
+		<state>
+			<lever id="1">0<lever/>
+			<lever id="2">1<lever/>
+			<lever id="3">0<lever/>
+			<result>reject<result/>
+			<input id="A">
+				<lever id="1">1<lever/>
+				<lever id="2">1<lever/>
+				<lever id="3">0<lever/>
+				<result>reject<result/>
+			<input/>
+			<input id="B">
+				<lever id="1">0<lever/>
+				<lever id="2">0<lever/>
+				<lever id="3">1<lever/>
+				<result>accept<result/>
+			<input/>
+		<state/>
+		
+		<state>
+			<lever id="1">0<lever/>
+			<lever id="2">1<lever/>
+			<lever id="3">1<lever/>
+			<result>reject<result/>
+			<input id="A">
+				<lever id="1">1<lever/>
+				<lever id="2">1<lever/>
+				<lever id="3">1<lever/>
+				<result>reject<result/>
+			<input/>
+			<input id="B">
+				<lever id="1">0<lever/>
+				<lever id="2">1<lever/>
+				<lever id="3">0<lever/>
+				<result>accept<result/>
+			<input/>
+		<state/>
+			
+		<state>
+			<lever id="1">1<lever/>
+			<lever id="2">0<lever/>
+			<lever id="3">0<lever/>
+			<result>reject<result/>
+			<input id="A">
+				<lever id="1">0<lever/>
+				<lever id="2">1<lever/>
+				<lever id="3">0<lever/>
+				<result>reject<result/>
+			<input/>
+			<input id="B">
+				<lever id="1">1<lever/>
+				<lever id="2">1<lever/>
+				<lever id="3">1<lever/>
+				<result>reject<result/>
+			<input/>
+		<state/>
+			
+		<state>
+			<lever id="1">1<lever/>
+			<lever id="2">0<lever/>
+			<lever id="3">0<lever/>
+			<result>accept<result/>
+			<input id="A">
+				<lever id="1">0<lever/>
+				<lever id="2">1<lever/>
+				<lever id="3">0<lever/>
+				<result>reject<result/>
+			<input/>
+			<input id="B">
+				<lever id="1">1<lever/>
+				<lever id="2">1<lever/>
+				<lever id="3">1<lever/>
+				<result>reject<result/>
+			<input/>
+		<state/>
+		
+			<state>
+			<lever id="1">1<lever/>
+			<lever id="2">0<lever/>
+			<lever id="3">1<lever/>
+			<result>reject<result/>
+			<input id="A">
+				<lever id="1">0<lever/>
+				<lever id="2">1<lever/>
+				<lever id="3">1<lever/>
+				<result>reject<result/>
+			<input/>
+			<input id="B">
+				<lever id="1">1<lever/>
+				<lever id="2">0<lever/>
+				<lever id="3">0<lever/>
+				<result>accept<result/>
+			<input/>
+		<state/>
+
+		<state>
+			<lever id="1">1<lever/>
+			<lever id="2">0<lever/>
+			<lever id="3">1<lever/>
+			<result>accept<result/>
+			<input id="A">
+				<lever id="1">0<lever/>
+				<lever id="2">1<lever/>
+				<lever id="3">1<lever/>
+				<result>reject<result/>
+			<input/>
+			<input id="B">
+				<lever id="1">1<lever/>
+				<lever id="2">0<lever/>
+				<lever id="3">0<lever/>
+				<result>accept<result/>
+			<input/>
+		<state/>
+		
+			<state>
+			<lever id="1">1<lever/>
+			<lever id="2">1<lever/>
+			<lever id="3">0<lever/>
+			<result>reject<result/>
+			<input id="A">
+				<lever id="1">0<lever/>
+				<lever id="2">0<lever/>
+				<lever id="3">0<lever/>
+				<result>accept<result/>
+			<input/>
+			<input id="B">
+				<lever id="1">1<lever/>
+				<lever id="2">0<lever/>
+				<lever id="3">1<lever/>
+				<result>accept<result/>
+			<input/>
+		<state/>
+		
+			<state>
+			<lever id="1">1<lever/>
+			<lever id="2">1<lever/>
+			<lever id="3">0<lever/>
+			<result>accept<result/>
+			<input id="A">
+				<lever id="1">0<lever/>
+				<lever id="2">0<lever/>
+				<lever id="3">0<lever/>
+				<result>accept<result/>
+			<input/>
+			<input id="B">
+				<lever id="1">1<lever/>
+				<lever id="2">0<lever/>
+				<lever id="3">1<lever/>
+				<result>accept<result/>
+			<input/>
+		<state/>
+
+		<state>
+			<lever id="1">1<lever/>
+			<lever id="2">1<lever/>
+			<lever id="3">1<lever/>
+			<result>reject<result/>
+			<input id="A">
+				<lever id="1">0<lever/>
+				<lever id="2">0<lever/>
+				<lever id="3">1<lever/>
+				<result>accept<result/>
+			<input/>
+			<input id="B">
+				<lever id="1">1<lever/>
+				<lever id="2">1<lever/>
+				<lever id="3">0<lever/>
+				<result>accept<result/>
+			<input/>
+		<state/>
+		
+	<states/>
