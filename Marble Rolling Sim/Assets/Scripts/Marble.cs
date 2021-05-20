@@ -2,22 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Marble : MonoBehaviour
 {
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public bool marbleDeleted = false;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+ 
     void OnBecameInvisible()
     {
         Destroy(gameObject);
+        marbleDeleted = true;
     }
 }
