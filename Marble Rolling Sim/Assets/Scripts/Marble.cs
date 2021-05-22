@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class Marble : MonoBehaviour
 {
-    public bool marbleDeleted = false;
 
  
     void OnBecameInvisible()
     {
         Destroy(gameObject);
-        marbleDeleted = true;
+        
     }
+
 }
